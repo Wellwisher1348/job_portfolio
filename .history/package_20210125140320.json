@@ -1,0 +1,23 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "Mitch Anderson's Portfolio",
+    "main": "index.js",
+    "homepage": "https://bradtraversy.github.io/modern_portfolio",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+        "deploy": "gh-pages -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Wellwisher1348"
+    },
+    "keywords": [
+        "HTML",
+        "CSS",
+        "Sass",
+        "Javascript"
+    ],
+    "author": "Mitch Anderson",
+    "license": "MIT"
+}
